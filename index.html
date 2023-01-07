@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Document</title>
+    
 </head>
 <body>
     <h1 class="heading" href="assets/CSS/style.css">
@@ -18,17 +18,17 @@
 
     <div class="game-area">
         <div class="controls-area">
-            
-            <button class="btn btn--big btn--green">
+
+            <button data-type="science" class="btn btn--big btn--green">
                 <i class="fas fa-microscope"></i>     <!-- font awesome Icons -->
             </button>
-            <button class="btn btn--big btn--blue">
+            <button data-type= "technology" class="btn btn--big btn--blue">
                 <i class="fas fa-microchip"></i>
             </button>
-            <button class="btn btn--big btn--orange">
+            <button data-type="engineer" class="btn btn--big btn--orange">
                 <i class="fas fa-tools"></i>
             </button>
-            <button class="btn btn--big btn--red">
+            <button data-type="math" class="btn btn--big btn--red">
                 <i class="fas fa-calculator"></i>
             </button>
 
@@ -40,11 +40,13 @@
             <p class="answer-message">Enter the Answer:</p>
             <input class="answer-box" type="string">
         </div>
-        <button class="bt btn--grey">Submit Answer</button>
+        <button data-type = "submit" class="btn btn--gray">Submit Answer</button>
 
     </div>
 
     <div class="score-area">
+        <!--<div id="progressBar">
+            <div id="progressBarFull"></div> --> 
         <p class="scores">Correct Answers<span id="score">0</span></p>
         <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
     </div>
