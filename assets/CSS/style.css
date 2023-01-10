@@ -59,20 +59,6 @@ body {
     margin: 30px auto;
 }
 
-/* #progressBar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid rgb(11, 223, 36);
-    margin-top: 2rem;
-    border: 50px;
-    overflow: hidden;
-}
-
-#progressBarFull {
-    height: 100%;
-    background: rgb(11, 223, 36);
-    width: 0%; 
-} */
 
 #score {
     color: green;

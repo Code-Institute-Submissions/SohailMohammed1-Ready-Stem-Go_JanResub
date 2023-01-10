@@ -35,8 +35,12 @@
         </div>
 
         <div class="question-area">
-
             <span id="question">What is the Mitchondria?</span>
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>   <!--https://www.codeexplained.dev/2018/10/create-multiple-choice-quiz-using-javascript.html -->
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+
+            
             <p class="answer-message">Enter the Answer:</p>
             <input class="answer-box" type="string">
         </div>
@@ -45,8 +49,7 @@
     </div>
 
     <div class="score-area">
-        <!--<div id="progressBar">
-            <div id="progressBarFull"></div> --> 
+        
         <p class="scores">Correct Answers<span id="score">0</span></p>
         <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
     </div>
@@ -54,4 +57,4 @@
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/f3b195f65e.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
