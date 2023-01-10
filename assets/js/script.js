@@ -3,7 +3,7 @@
 const questions = [
     {
         'question': 'What is the Mitchondria?',
-        'option1': 'Powerhouse of the celll',
+        'option1': 'Powerhouse of the cell',
         'option2': 'Option 2',
         'option3': 'Option 3',
         'option4': 'Option 4',

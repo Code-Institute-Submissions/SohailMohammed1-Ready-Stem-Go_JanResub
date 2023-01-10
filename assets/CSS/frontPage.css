@@ -3,8 +3,8 @@ body {
 }
 
 
-h1 {
-    font-size: 5rem;
+h1, h6, ul {
+    font-size: 2rem;
     color: aliceblue;
     margin-bottom: 2rem;
 }
