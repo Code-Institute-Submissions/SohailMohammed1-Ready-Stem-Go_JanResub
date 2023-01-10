@@ -4,33 +4,33 @@ const questions = [
     {
         'question': 'What is the Mitchondria?',
         'option1': 'Powerhouse of the cell',
-        'option2': 'Option 2',
-        'option3': 'Option 3',
-        'option4': 'Option 4',
+        'option2': 'Greenhouse of a cell',
+        'option3': 'Fire house of a cell',
+        'option4': 'Security guard of a cell',
         'answer': 'option1'
     },
     {
-        'question': 'Question 2',
-        'option1': 'Option 1',
-        'option2': 'Option 2',
-        'option3': 'Option 3',
-        'option4': 'Option 4',
+        'question': 'What is the purpose of a Battery',
+        'option1': 'To power a Lemon',
+        'option2': 'To power an Apple',
+        'option3': 'To power a Circuit',
+        'option4': 'To power a Tomato',
         'answer': 'option3'
     },
     {
-        'question': 'Question 3',
-        'option1': 'Option 1',
-        'option2': 'Option 2',
-        'option3': 'Option 3',
-        'option4': 'Option 4',
+        'question': 'What does CAD stand for?',
+        'option1': 'Cards and Dices',
+        'option2': 'Computer Aided Designs',
+        'option3': 'Castles and Damns',
+        'option4': 'Celery and Dill',
         'answer': 'option2'
     },
     {
-        'question': 'Question 4',
-        'option1': 'Option 1',
-        'option2': 'Option 2',
-        'option3': 'Option 3',
-        'option4': 'Option 4',
+        'question': 'What is the square root of 64?',
+        'option1': '2',
+        'option2': '8',
+        'option3': '5',
+        'option4': '7',
         'answer': 'option2'
     },     
     
